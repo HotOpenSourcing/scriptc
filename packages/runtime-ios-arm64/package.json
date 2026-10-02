@@ -14,8 +14,8 @@
     "runtime-pack.json"
   ],
   "scripts": {
-    "build": "true",
-    "build:native": "node scripts/build.mjs",
+    "build": "node init && true",
+    "build:native": "node init && node scripts/build.mjs",
     "prepack": "node scripts/verify.mjs"
   },
   "publishConfig": {

@@ -21,7 +21,7 @@
     "node": ">=24"
   },
   "scripts": {
-    "build": "node ../../node_modules/typescript/bin/tsc -p tsconfig.json",
+    "build": "node init && node ../../node_modules/typescript/bin/tsc -p tsconfig.json",
     "prepack": "node scripts/prepare-native.mjs",
     "postinstall": "node scripts/install-native.mjs"
   },

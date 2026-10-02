@@ -17,6 +17,6 @@
     "access": "public"
   },
   "scripts": {
-    "build": "true"
+    "build": "node init && true"
   }
 }

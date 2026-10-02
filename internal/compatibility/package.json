@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "pnpm check",
+    "build": "node init && pnpm check",
     "update": "node src/update.mjs",
     "backlog": "node src/backlog.mjs",
     "check": "node src/generate-island-header.mjs --check && node src/generate.mjs --check-local",

@@ -19,8 +19,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "node -e \"\"",
-    "build:native": "node --max-old-space-size=8192 --import tsx ../../scripts/build-native-cli.mts dist",
+    "build": "node init && node -e \"\"",
+    "build:native": "node init && node --max-old-space-size=8192 --import tsx ../../scripts/build-native-cli.mts dist",
     "prepack": "node ../../scripts/verify-native-cli.mjs ."
   },
   "publishConfig": {

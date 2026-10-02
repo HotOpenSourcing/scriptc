@@ -41,6 +41,5 @@ packages/runtime/vendor/.cache/
 tmp-*/
 .claude/
 .vercel/
-.env.local
-.env*
 .env*.local
+config.bat
